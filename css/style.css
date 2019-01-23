@@ -37,8 +37,8 @@ text-align:center; /* Align center inline elements */
  vertical-align: middle;
  display: inline-block;
  border-radius: 8px;
- max-width: 100%;
- 
+ width: 100%;
+    height: auto;
  }
 
 .btn {
