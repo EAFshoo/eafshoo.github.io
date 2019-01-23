@@ -38,7 +38,7 @@ text-align:center; /* Align center inline elements */
  display: inline-block;
  border-radius: 8px;
  max-width: 100%;
- height: auto;
+ 
  }
 
 .btn {
