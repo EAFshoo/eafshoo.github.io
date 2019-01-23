@@ -12,15 +12,14 @@ text-align: center;
   width: 95%;
   max-width: 1200px;  
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
  
 }
 
 .card {
+  margin: center;
   text-align: center;
-  display: flex;
-  flex-direction: column;
+
 }
 
 .img-container {
@@ -37,6 +36,9 @@ text-align:center; /* Align center inline elements */
 .img-container img {
  vertical-align: middle;
  display: inline-block;
+ border-radius: 8px;
+ max-width: 100%;
+ height: auto;
  }
 
 .btn {
@@ -50,7 +52,7 @@ text-align:center; /* Align center inline elements */
 .bio {
   
   color: white;
-  background-color: #ffa700;
+  background-color: #7C2E22;
   border: solid black; 
   text-align: center;
 
@@ -60,7 +62,8 @@ margin:10px;
   
 }
 
-body h1 {font-family: 'Spectral SC', serif;
+body h1 {font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
   font-size: 3em;
 }
 
@@ -103,7 +106,7 @@ p {
 }
 .btn1 {
   color: black;
-  font-size: 0.85em;
+  font-size: 1.5em;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
@@ -111,6 +114,7 @@ p {
   background-color: #ffa700;
   border-radius: 0.35em;
   display: inline-block;
+  
 }
 .btn1:hover {
  opacity: 1;
@@ -119,10 +123,11 @@ p {
   transition-delay: .2s, .3s;
    background: #088A29;
   box-shadow: 0 0 0 3px rgba (255, 255, 255, .7);
+  font-family: 'Spectral SC', serif;
 }
 .btn2 {
   color: black;
-  font-size: 0.85em;
+  font-size: 1.5em;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
@@ -138,11 +143,12 @@ p {
   transition-delay: .2s, .3s;
    background: #0489B1;
   box-shadow: 0 0 0 3px rgba (255, 255, 255, .7);
+  font-family: 'Spectral SC', serif;
 }
 
 .btn3 {
   color: black;
-  font-size: 0.85em;
+  font-size: 1.5em;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
@@ -158,11 +164,12 @@ p {
   transition-delay: .2s, .3s;
    background: #DF7401;
   box-shadow: 0 0 0 3px rgba (255, 255, 255, .7);
+  font-family: 'Spectral SC', serif;
 }
 
 .btn4 {
   color: black;
-  font-size: 0.85em;
+  font-size: 1.5em;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
@@ -178,11 +185,12 @@ p {
   transition-delay: .2s, .3s;
    background: #0A2A0A;
   box-shadow: 0 0 0 3px rgba (255, 255, 255, .7);
+  font-family: 'Spectral SC', serif;
 }
 
 .btn5 {
   color: black;
-  font-size: 0.85em;
+  font-size: 1.5em;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
@@ -198,6 +206,7 @@ p {
   transition-delay: .2s, .3s;
    background: #DBA901;
   box-shadow: 0 0 0 3px rgba (255, 255, 255, .7);
+  font-family: 'Spectral SC', serif;
 }
 
 .btn6 {
@@ -218,9 +227,11 @@ p {
   transition-delay: .2s, .3s;
    background: #071418;
   box-shadow: 0 0 0 3px rgba (255, 255, 255, .7);
+  font-family: 'Spectral SC', serif;
 }
 
 .material-icons {
   color: #8c271e; 
   font-size: 2.1em;
 }
+
